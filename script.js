@@ -48,20 +48,7 @@ const server=http.createServer((req, res)=>{
     res.setHeader('Content-type','text/plain')
     res.end("Server Error")
    }
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    
-}
+   }
 );
 server.listen(PORT ,()=>{
     console.log("Server running at ${HOSTNAME}:{PORT}");
